@@ -1,0 +1,22 @@
+2025-10-02 12:01:23,840 - INFO - [InferenceNode] Input: The acting was brilliant, but the story was dull and predictable. | Predicted: NEGATIVE | Confidence: 1.00
+2025-10-02 12:01:23,841 - INFO - [FallbackNode] Accepted prediction: NEGATIVE
+2025-10-02 12:01:39,143 - INFO - [InferenceNode] Input: I loved the cinematography, but the movie itself was painfully boring. | Predicted: NEGATIVE | Confidence: 1.00
+2025-10-02 12:01:39,144 - INFO - [FallbackNode] Accepted prediction: NEGATIVE
+2025-10-02 12:01:52,469 - INFO - [InferenceNode] Input: It was fine, nothing special but not terrible either. | Predicted: POSITIVE | Confidence: 0.94
+2025-10-02 12:01:52,470 - INFO - [FallbackNode] Accepted prediction: POSITIVE
+2025-10-02 12:02:25,323 - INFO - [InferenceNode] Input: The music score was beautiful, but the characters were flat and uninteresting. | Predicted: NEGATIVE | Confidence: 1.00
+2025-10-02 12:02:25,323 - INFO - [FallbackNode] Accepted prediction: NEGATIVE
+2025-10-02 12:02:31,480 - INFO - [InferenceNode] Input: I enjoyed the first half, but the ending completely ruined it for me. | Predicted: NEGATIVE | Confidence: 1.00
+2025-10-02 12:02:31,481 - INFO - [FallbackNode] Accepted prediction: NEGATIVE
+2025-10-02 12:02:59,452 - INFO - [InferenceNode] Input: The visuals were stunning, but the plot made no sense. | Predicted: NEGATIVE | Confidence: 1.00
+2025-10-02 12:02:59,453 - INFO - [FallbackNode] Accepted prediction: NEGATIVE
+2025-10-02 18:01:03,489 - INFO - [InferenceNode] Input: the movie is so good! | Predicted: POSITIVE | Confidence: 1.00
+2025-10-02 18:01:03,491 - INFO - [FallbackNode] Accepted prediction: POSITIVE
+2025-10-02 18:11:06,031 - INFO - [InferenceNode] Input: I absolutely loved this movie, it was fantastic! | Predicted: POSITIVE | Confidence: 1.00
+2025-10-02 18:11:06,033 - INFO - [FallbackNode] Accepted prediction: POSITIVE
+2025-10-02 18:11:57,413 - INFO - [InferenceNode] Input: I don't know how I feel about this movie. | Predicted: NEGATIVE | Confidence: 0.78
+2025-10-02 18:11:57,414 - INFO - [FallbackNode] Accepted prediction: NEGATIVE
+2025-10-02 18:12:33,635 - INFO - [InferenceNode] Input: The movie was okay, not too good, not too bad. | Predicted: POSITIVE | Confidence: 0.56
+2025-10-02 18:12:33,636 - INFO - [ConfidenceCheckNode] Low confidence (0.56). Triggering fallback...
+2025-10-02 18:12:35,989 - INFO - [FallbackNode] Backup Model Prediction: POSITIVE | Confidence: 0.65
+2025-10-02 18:12:35,990 - INFO - [FallbackNode] Backup agrees with main model \u2192 Accepting POSITIVE
