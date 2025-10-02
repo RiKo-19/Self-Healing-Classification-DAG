@@ -15,7 +15,7 @@ The system prioritizes correctness by:
 - Fine-tuned transformer model (**DistilBERT on IMDB**)  
 - **Three DAG nodes**:
   1. **InferenceNode** → Runs classification using the fine-tuned model  
-  2. **ConfidenceCheckNode** → Checks confidence threshold (set to 0.75)  
+  2. **ConfidenceCheckNode** → Checks confidence threshold (set to 0.70)  
   3. **FallbackNode** → Uses a **backup model** (`facebook/bart-large-mnli`) or **asks the user**  
 - **CLI interface** for interactive classification  
 - **Structured logging** to `pipeline.log`  
